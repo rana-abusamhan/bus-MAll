@@ -1,0 +1,62 @@
+body{
+    margin:0;
+}
+nav li{
+    display: inline-block;
+    margin-left:50px;
+}
+header{
+    display:flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+main div img{
+    display: block;
+    margin: auto;
+}
+
+.firstSec{
+    display: flex;
+    justify-content: center;    
+    margin-top: 20px;
+}
+
+.firstSec img:nth-child(2){
+    margin-left:45px;
+}
+
+.firstSec img:nth-child(3){
+    margin-left:45px;
+}
+
+.secondSec{
+    margin-top:20px;
+    display:flex;
+    justify-content: center;
+}
+.firstDiv{
+    width:480px;
+    height:400px;
+}
+
+.secondSec img{
+    margin-right: 20px;
+}
+
+footer{
+    width:100%;
+    height:200px;
+    background-color:grey;
+    margin-top: 50px;
+}
+
+.chartjs-size-monitor{
+    width: 400px;
+    height: 400px;
+}
+
+canvas{
+    width: 990px !important;
+    height: 450px !important;
+}
